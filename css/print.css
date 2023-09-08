@@ -1,0 +1,39 @@
+@media print {
+	@page {
+		size:  auto; 
+		margin: 0;  
+		padding: 0;
+	}
+	html{
+		background-color: #FFFFFF; 
+		margin: 0px;  /* this affects the margin on the html before sending to printer */
+	}
+	.container{
+		width: auto;
+		max-width: none;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+	.header, .wrap, .footer, 
+	.main .container > *:not(.thanks-wrap), 
+	.pb-set-buttons, .hr, .main-wrapper > *:not(.main),
+	body > *:not(.main-wrapper), .thanks-wrap-button {
+		display: none;
+	}
+	.main-wrapper {
+		padding: 0;
+	}
+	.thanks-wrap, .pb-total {
+		margin: 0;
+	}
+	.pbt {
+		border-bottom: .1rem solid #8d8d8d;
+		padding-bottom: 1rem;
+		margin-bottom: 2rem;
+	}
+	.thanks-wrap .title, .thanks-wrap .subtitle {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+}

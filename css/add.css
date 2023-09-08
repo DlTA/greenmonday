@@ -1,0 +1,96 @@
+.trumbowyg-editor{
+	margin-bottom: 1em;
+}
+.trumbowyg-editor ol, .trumbowyg-editor ul{
+
+	list-style-position: inside;
+	margin-bottom: 1em;
+
+}
+.trumbowyg-editor ol{
+	list-style-type: decimal;
+}
+.trumbowyg-editor ul{
+	list-style-type: disc;
+}
+.trumbowyg-editor p{
+	margin-bottom: 0px;
+}
+
+.card--not-aviable .card__img a:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(233, 237, 240, 0.49);
+}
+
+/* админка */
+.admin-goods{
+	
+}
+	.admin-goods th, .admin-goods td{
+		padding: 0 5px;
+	}
+	.admin-goods img{
+		max-height: 40px;
+		max-width: 40px;
+	}
+
+
+.form-field .ff-star{
+	z-index: 7;
+}
+.ui-datepicker {
+	position: relative; 
+	z-index:100 !important;
+}
+.ui_tpicker_second_label, .ui_tpicker_second, .ui_tpicker_millisec_label, .ui_tpicker_millisec, .ui_tpicker_microsec_label, .ui_tpicker_microsec, .ui_tpicker_timezone_label, .ui_tpicker_timezone{
+	display: none;
+}
+
+.goods-weight{
+	width: 3em;
+}
+
+.thanks-info{
+	padding: 2.5rem 3rem;
+}
+.popup{
+	font-size: 16px;
+}
+.main .container{
+	margin-bottom: 100px;
+}
+.delivery-method{
+	display: none;
+}
+.lang{
+	margin-right: 0;
+}
+.lang__button{
+	display: none;
+}
+.lang__button.language_active{
+	display: flex;
+}
+@media screen and (max-width: 992px) {
+	.lang{
+		margin-right: 35px;
+	}
+}
+
+.basket__price{
+	margin-right: 0.2em;
+}
+.load-all-b{
+	padding: 0 10px;
+}
+.block-load-all-b{
+	display: flex;
+}
+.b-submit-link-display-none{
+	display: none;
+}

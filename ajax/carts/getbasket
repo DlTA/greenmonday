@@ -1,0 +1,3 @@
+{"update":{".basket__kbd":0,".subtotal":"\u20ac0.00",".basket__price":"\u20ac0.00",".total_sum":"\u20ac0.00"},"addClass":{".basket__dropdown":"basket__dropdown--message hidden-md"},"updhtml":{".basket__dropdown":"\n\t\t
+<div class=\"basket__message\">
+    \n\t\t\tNo products in the basket.\n\t\t<\/div>\n\n\t"}}
